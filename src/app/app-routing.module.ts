@@ -5,6 +5,7 @@ import { EventsComponent } from './pages/events/events.component';
 import { HomeComponent } from './pages/home/home.component';
 import { MediaComponent } from './pages/media/media.component';
 import { StoreComponent } from './pages/store/store.component';
+import { EPKComponent } from './pages/epk/epk.component';
 
 const routes: Routes = [
   {
@@ -27,6 +28,10 @@ const routes: Routes = [
   {
     path: 'store',
     component: StoreComponent
+  },
+  {
+    path: 'press-kit',
+    component: EPKComponent
   },
 ];
 

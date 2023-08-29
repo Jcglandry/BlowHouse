@@ -1,0 +1,67 @@
+@import "/src/app/variables.scss";
+
+
+
+.img-container {
+    position:relative;
+    padding:90%;
+    text-align: center;
+}
+
+.press-header {
+  font-family: Anton,sans-serif;
+  color: goldenrod;
+  border-style: bold;
+}
+
+img {
+    max-width: 15%;  
+    border-radius: 10px;  
+}
+a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+
+    &:hover {
+        color: $blow-house-red;
+      }
+}
+
+p{ font-size: 18px;}
+
+.center{
+    margin-right: auto;
+    margin-left: auto;
+}
+td {
+    padding: 2px;
+}
+
+
+.icon {
+    object-fit: cover;
+    color: white;
+
+    @media(max-width: map-get($grid-breakpoints , "sm" )) {
+      font-size: 30px;
+      padding: 0 .75rem;
+    }
+    
+    &:hover {
+        color: $blow-house-red;
+      }
+  }
+
+  .promo-link {
+    color: $blow-house-red;
+  }
+
+  .media-link a{
+    text-decoration:underline;
+    
+    &:hover {    
+    text-decoration-color: $blow-house-red;
+    }
+  }
+
